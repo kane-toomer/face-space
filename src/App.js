@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import SignIn from './screens/SignIn';
 import Register from './screens/Register';
+import Dashboard from './screens/Dashboard';
+import Messages from './screens/Messages';
+import Settings from './screens/Settings';
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <Routes>
         <Route exact path='/' element={<SignIn />} />
         <Route exact path='/register' element={<Register />} />
+        <Route exact path='/dashboard' element={<Dashboard />} />
+        <Route exact path='/messages' element={<Messages />} />
+        <Route exact path='/settings' element={<Settings />} />
       </Routes>
     </Router>
   );

@@ -6,7 +6,7 @@ import logo from '../assets/images/mememoji2.svg';
 
 const navigation = [
     { name: 'News Feed', href: '/dashboard', current: true },
-    { name: 'Messages', href: '/messages', current: false },
+    { name: 'Profile', href: '/profile', current: false },
     { name: 'Settings', href: '/settings', current: false },
 ]
 

@@ -7,7 +7,7 @@ const Compose = () => {
         <>
             <div className="px-4 sm:px-0 flex justify-center">
                 {/* Compose */}
-                <div className="w-full sm:3/12 md:w-9/12 lg:6/12 pb-4 px-5 rounded-lg bg-white">
+                <div className="w-full sm:w-3/12 md:w-7/12 pb-4 px-5 rounded-lg bg-white">
                     {/* top */}
                     <div className="">
                         <textarea
@@ -17,7 +17,7 @@ const Compose = () => {
                             className="my-5 block w-full"
                             placeholder="What's on your mind?"
                             defaultValue={''}
-                            style={{ resize: 'none' }}
+                            style={{ resize: 'none', outline: 'none' }}
                         />
                     </div>
 
@@ -34,7 +34,7 @@ const Compose = () => {
                         <button className="text-slate-800">
                             <PhotoIcon className="h-7 w-7" aria-hidden="true" />
                         </button>
-                        <button className="bg-blue-600 text-white font-bold py-2 px-3 rounded-md">
+                        <button className="bg-blue-600 text-white font-bold py-2 px-3 rounded-md hover:bg-blue-900">
                             <BoltIcon className="h-6 w-6" aria-hidden="true" />
                         </button>
                     </div>

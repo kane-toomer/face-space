@@ -1,14 +1,19 @@
 import React from 'react';
 import NavigationBar from '../navigation/navigation';
 
-const Messages = () => {
+import UserCard from '../components/userCard.js';
+
+const Profile = () => {
 
     return (
         <>
             {/* Header */}
             <NavigationBar />
+
+            {/* User Card */}
+            <UserCard />
         </>
     );
 }
 
-export default Messages;
+export default Profile;

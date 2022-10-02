@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SignIn from './screens/SignIn';
 import Register from './screens/Register';
 import Dashboard from './screens/Dashboard';
-import Messages from './screens/Messages';
+import Profile from './screens/Profile';
 import Settings from './screens/Settings';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Route exact path='/' element={<SignIn />} />
         <Route exact path='/register' element={<Register />} />
         <Route exact path='/dashboard' element={<Dashboard />} />
-        <Route exact path='/messages' element={<Messages />} />
+        <Route exact path='/profile' element={<Profile />} />
         <Route exact path='/settings' element={<Settings />} />
       </Routes>
     </Router>

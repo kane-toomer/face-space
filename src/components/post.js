@@ -6,7 +6,7 @@ const Post = () => {
     return (
         <>
             <div className="px-4 py-6 sm:px-0 flex justify-center">
-                <div className="w-full lg:w-9/12 pb-4 px-5 rounded-lg bg-white">
+                <div className="w-full lg:w-8/12 pb-4 px-5 rounded-lg bg-white">
                     <div className="p-5">
                         {/* User Information */}
                         <div className="mt-2 flex justify-between">
@@ -17,8 +17,9 @@ const Post = () => {
                                     </svg>
                                 </span>
                                 <div>
-                                    <p className="ml-4 font-bold">Kane Toomer</p>
-                                    <p className="ml-4 font-medium text-sm text-blue-600">@kanetoomer</p>
+                                    <button className="ml-4 font-bold">Kane Toomer</button>
+                                    <br />
+                                    <button className="ml-4 font-medium text-sm text-red-600">@kanetoomer</button>
                                 </div>
                             </div>
                             <p className="font-medium text-sm text-gray-400">10m ago</p>

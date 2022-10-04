@@ -5,7 +5,7 @@ const SideMenu = () => {
 
     return(
         <>
-            <div className="w-60 shadow-md bg-blue-600 px-5 pt-10 fixed left-0 top-0 h-screen" >
+            <div className="w-60 shadow-md bg-blue-600 px-5 pt-10 sticky left-0 top-0 h-screen" >
                 <ul className="relative">
                     <li className="relative">
                         <a href='/dashboard' className="px-3 py-5 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">News Feed</a>

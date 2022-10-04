@@ -1,18 +1,11 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
-// COMPONENTS
-import NavigationBar from '../navigation/navigation';
-import ComposeStatus from '../components/compose';
-import Post from '../components/post';
+const SideMenu = () => {
 
-
-const Dashboard = () => {
-
-    return (
+    return(
         <>
-
-            {/* Side Profile Menu */}
-            {/* <div className="w-60 shadow-md bg-blue-600 px-5 pt-10 fixed  " >
+            <div className="w-60 shadow-md bg-blue-600 px-5 pt-10 fixed left-0 top-0 h-screen" >
                 <ul className="relative">
                     <li className="relative">
                         <a href='/dashboard' className="px-3 py-5 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">News Feed</a>
@@ -24,19 +17,11 @@ const Dashboard = () => {
                         <a href='/settings' className="px-3 py-5 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" >Settings</a>
                     </li>
                 </ul>
-            </div> */}
+            </div>
 
-            {/* Main Content */}
-            <main className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-6">
-
-                {/* Compose Status */}
-                <ComposeStatus />
-
-                {/* Feed */}
-                <Post />
-            </main>
+            
         </>
     );
-}
+};
 
-export default Dashboard;
+export default SideMenu;

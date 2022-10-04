@@ -2,6 +2,8 @@ import React from 'react';
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, ArrowRightOnRectangleIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
+import { Outlet } from 'react-router-dom';
+
 import logo from '../assets/images/mememoji2.svg';
 
 const navigation = [
@@ -100,6 +102,9 @@ const NavigationBar = () => {
                     </>
                 )}
             </Disclosure>
+
+
+            <Outlet />
         </>
     );
 }

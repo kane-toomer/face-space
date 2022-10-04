@@ -6,7 +6,7 @@ const Post = () => {
     return (
         <>
             <div className="px-4 py-6 sm:px-0 flex justify-center">
-                <div className="w-full sm:w-3/12 md:w-7/12 pb-4 px-5 rounded-lg bg-white">
+                <div className="w-full lg:w-9/12 pb-4 px-5 rounded-lg bg-white">
                     <div className="p-5">
                         {/* User Information */}
                         <div className="mt-2 flex justify-between">

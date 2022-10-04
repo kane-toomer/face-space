@@ -25,20 +25,6 @@ const Register = () => {
                         <input type="hidden" name="remember" defaultValue="true" />
                         <div className="-space-y-px rounded-md shadow-sm">
                             <div>
-                                <label htmlFor="full-name" className="sr-only">
-                                    First and Last Name
-                                </label>
-                                <input
-                                    id="full-name"
-                                    name="full-name"
-                                    type="text"
-                                    autoComplete="text"
-                                    required
-                                    className="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="First & Last Name"
-                                />
-                            </div>
-                            <div>
                                 <label htmlFor="username" className="sr-only">
                                     Username
                                 </label>
@@ -48,8 +34,8 @@ const Register = () => {
                                     type="text"
                                     autoComplete="text"
                                     required
-                                    className="relative block w-full appearance-none rounded-none border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="Create a Username"
+                                    className="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                                    placeholder="Username"
                                 />
                             </div>
                             <div>
@@ -63,7 +49,7 @@ const Register = () => {
                                     autoComplete="email"
                                     required
                                     className="relative block w-full appearance-none rounded-none border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="Email Address"
+                                    placeholder="Email"
                                 />
                             </div>
                             <div>
@@ -77,7 +63,7 @@ const Register = () => {
                                     autoComplete="current-password"
                                     required
                                     className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="Create a Password"
+                                    placeholder="Password"
                                 />
                             </div>
                         </div>

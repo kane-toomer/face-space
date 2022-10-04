@@ -7,7 +7,7 @@ const Compose = () => {
         <>
             <div className="px-4 sm:px-0 flex justify-center">
                 {/* Compose */}
-                <div className="w-full sm:w-3/12 md:w-7/12 pb-4 px-5 rounded-lg bg-white">
+                <div className="w-full lg:w-9/12 md:w-7/12 pb-4 px-5 rounded-lg bg-white">
                     {/* top */}
                     <div className="">
                         <textarea

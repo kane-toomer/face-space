@@ -5,8 +5,7 @@ const Settings = () => {
 
     return (
         <>
-            {/* Header */}
-            <NavigationBar />
+            
         </>
     );
 }

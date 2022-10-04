@@ -7,9 +7,6 @@ const Profile = () => {
 
     return (
         <>
-            {/* Header */}
-            <NavigationBar />
-
             {/* User Card */}
             <UserCard />
         </>

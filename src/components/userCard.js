@@ -11,7 +11,7 @@ const UserCard = () => {
                 {/* Compose */}
                 <div className="w-full lg:w-8/12 px-5 rounded-lg bg-white">
                     <div className="my-6">
-                        <div className="rounded-lg border-4 border-dashed border-gray-200">
+                        <div className="rounded-lg p-2 border-gray-200">
 
                             {/* User Information */}
                             <div className="mt-5 flex justify-center">

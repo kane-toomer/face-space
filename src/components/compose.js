@@ -17,7 +17,7 @@ const Compose = () => {
                             className="my-5 block w-full"
                             placeholder="What's on your mind?"
                             defaultValue={''}
-                            style={{ resize: 'none', outline: 'none' }}
+                            style={{ resize: 'none', outline: 'none', border: 'none' }}
                         />
                     </div>
 
@@ -34,7 +34,7 @@ const Compose = () => {
                         <button className="text-slate-800">
                             <PhotoIcon className="h-7 w-7" aria-hidden="true" />
                         </button>
-                        <button className="bg-red-600 text-white font-bold py-2 px-3 rounded-md hover:bg-blue-900">
+                        <button className="bg-red-600 text-white font-bold py-2 px-3 rounded-md hover:bg-red-900">
                             <BoltIcon className="h-6 w-6" aria-hidden="true" />
                         </button>
                     </div>
